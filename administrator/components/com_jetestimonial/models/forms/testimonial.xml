@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: faq.xml 20085 2011-01-05 02:42:55Z eddieajau $ -->
+<form>
+	<fieldset>
+		<field name="id"
+			type="text"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description="JGLOBAL_FIELD_ID_DESC"
+			size="10"
+			default="0"
+			readonly="true"
+			class="readonly"
+		/>
+
+		<field name="title" type="text" label="JGLOBAL_TITLE"
+			description="JFIELD_TITLE_DESC" class="inputbox" size="24"
+			required="true" />
+
+		<field name="alias" type="text" label="JFIELD_ALIAS_LABEL"
+			description="JFIELD_ALIAS_DESC" class="inputbox" size="45" />
+
+		<field name="name" type="text" label="COM_JETESTIMONIAL_NAME_LABEL"
+			description="COM_JETESTIMONIAL_NAME_LABEL" class="inputbox" size="30"
+			required="true" />
+
+		<field name="email" type="text" label="COM_JETESTIMONIAL_EMAIL_LABEL"
+			description="COM_JETESTIMONIAL_EMAIL_LABEL" class="inputbox" size="30"
+			validate="email" filter="string"/>
+
+		<field name="companyname" type="text" label="COM_JETESTIMONIAL_COMPANYNAME_LABEL"
+			description="COM_JETESTIMONIAL_COMPANYNAME_LABEL" class="inputbox" size="30"/>
+
+		<field name="city" type="text" label="COM_JETESTIMONIAL_CITY_LABEL"
+			description="COM_JETESTIMONIAL_CITY_LABEL" class="inputbox" size="30"/>
+
+		<field name="state" type="text" label="COM_JETESTIMONIAL_STATE_LABEL"
+			description="COM_JETESTIMONIAL_STATE_LABEL" class="inputbox" size="30"/>
+
+		<field name="country" type="text" label="COM_JETESTIMONIAL_COUNTRY_LABEL"
+			description="COM_JETESTIMONIAL_COUNTRY_LABEL" class="inputbox" size="30"/>
+
+		<field name="website" type="text" label="COM_JETESTIMONIAL_WEBSITE_LABEL"
+			description="COM_JETESTIMONIAL_WEBSITE_LABEL" class="inputbox" size="30"/>
+
+		 <field name="description" type="editor"
+			label="COM_JETESTIMONIAL_FIELD_DESCRIPTION_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_DESCRIPTION_DESC"
+			class="inputbox"
+			filter="safehtml"
+			buttons="true"
+			hide="readmore,pagebreak"
+			 />
+
+		 <field id="published"
+			name="published"
+			type="list"
+			label="JGLOBAL_STATE"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1"
+		>
+			<option value="1">
+				JPUBLISHED</option>
+			<option value="0">
+				JUNPUBLISHED</option>
+			<option value="2">
+				JARCHIVED</option>
+			<option value="-2">
+				JTRASHED</option>
+
+		</field>
+
+		<field name="catid"
+			type="category"
+			extension="com_jetestimonial"
+			label="JCATEGORY"
+			description="JFIELD_CATEGORY_DESC"
+			class="inputbox"
+			required="true"
+		/>
+
+		<field name="access"
+			type="accesslevel"
+			label="JFIELD_ACCESS_LABEL"
+			description="JFIELD_ACCESS_DESC"
+			class="inputbox"
+			size="1"
+		/>
+
+		<field name="ordering"
+			type="testiordering"
+			class="inputbox"
+			label="JFIELD_ORDERING_LABEL"
+			description="JFIELD_ORDERING_DESC"
+		/>
+
+		<field name="language" type="contentlanguage" label="JFIELD_LANGUAGE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_LANGUAGE_DESC" class="inputbox"
+		>
+			<option value="*">JALL</option>
+		</field>
+
+		<field name="checked_out" type="hidden" filter="unset" />
+		<field name="checked_out_time" type="hidden" filter="unset" />
+
+		<field name="avatar_image" type="file" label="COM_JETESTIMONIAL_FIELD_UPLOADIMAGE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_UPLOADIMAGE_LABEL" class="inputbox" size="30"
+		/>
+
+		<field name="video" type="text" label="COM_JETESTIMONIAL_FIELD_VIDEO_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_VIDEO_DESC" class="inputbox" size="30"
+		/>
+
+		<field name="lvideo" type="videofile" label="COM_JETESTIMONIAL_FIELD_LVIDEO_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_LVIDEO_DESC" class="inputbox" size="30"
+		/>
+
+		<field name="laudio" type="audiofile" label="COM_JETESTIMONIAL_FIELD_LAUDIO_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_LAUDIO_DESC" class="inputbox" size="30"
+		/>
+
+		<field name="releasedate" type="calendar" label="COM_JETESTIMONIAL_FIELD_RELEASE_DATE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_RELEASE_DATE_DESC" class="inputbox" size="30"
+		/>
+
+		<field name="posted_date" type="calendar" label="COM_JETESTIMONIAL_FIELD_POST_DATE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_POST_DATE_DESC"  class="inputbox" size="30"
+		/>
+	</fieldset>
+</form>

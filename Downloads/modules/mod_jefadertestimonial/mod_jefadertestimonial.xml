@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.5.0" client="site"
+	method="upgrade">
+	<name>JE Fadertestimonial</name>
+	<author>JExtension</author>
+	<creationDate>April - 2011</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License v2, see LICENSE.php</license>
+	<authorEmail>contact@jextn.com</authorEmail>
+	<authorUrl>www.jextn.com</authorUrl>
+	<version>3.0.8</version>
+	<description>This module allows the displaying a testimonials with scrolling effect</description>
+	<files>
+		<filename module="mod_fadertestimonial">mod_fadertestimonial.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>assets</folder>
+	</files>
+
+	<languages>
+        <language tag="en-GB">en-GB.mod_fadertestimonial.ini</language>
+        <language tag="en-GB">en-GB.mod_fadertestimonial.sys.ini</language>
+	</languages>
+
+	<help key="MOD_JETESTIMONIAL_TESTIMONIAL_DISPLAY" />
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="startclor" type="text" default="255,255,255" label="PARAMFONTSTARTCOLOR" description="PARAMFONTSTARTCOLORDESC" />
+				<field name="endcolor" type="text" default="0,0,0" label="PARAMFONTENDCOLOR" description="PARAMFONTENDCOLORDESC" />
+				<field name="font_size" type="text" default="12" label="PARAMFONTSIZE" description="PARAMFONTSIZE" />
+				<field name="font_family" type="text" default="Arial" label="PARAMFONTFAMILY" description="PARAMFONTFAMILY" />
+				<field name="je_fadar_padding" type="text" default="10" label="PARAMPADDING" description="PARAMPADDING" />			
+				<field name="height" type="text" default="" label="HEIGHT" description="PARAMHEIGHTPX" />
+				<field name="width" type="text" default="" label="WIDTH" description="PARAMWIDTHPX" />
+				<field name="bgcolor" type="text" default="" label="BGCOLOR" description="PARAMBGCOLOR" />
+				<field name="speed" type="text" default="" label="SPEED" description="PARAMSPEED" />
+				<field name="degree" type="text" default="" label="DEGREE" description="PARAMDEGREE" />
+				<field name="fontstyle" type="list" default="italic" label="FONTSTYLE" description="FONTSTYLEDESC">
+					<option value="normal">Normal</option>
+					<option value="bold">Bold</option>
+					<option value="italic">Italic</option>
+				</field>
+
+				<field name="category" type="category"
+					extension="com_jetestimonial"
+					label="MOD_JETESTIMONIAL_FIELD_CATEGORIES_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_CATEGORIES_DESC"
+					show_root="true"
+					required="true"
+				/>
+
+				<field
+					name="limit"
+					type="text"
+					size="15"
+					class="btn-group"
+					default="100"
+					label="MOD_JETESTIMONIAL_FIELD_LIMIT_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_LIMIT_DESC" />
+
+				<field
+					name="readmore"
+					type="radio"
+					default="1"
+					class="btn-group"
+					label="MOD_JETESTIMONIAL_FIELD_READMORE_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_READMORE_DESC">
+					<option	value="1">JYES</option>
+					<option	value="0">JNO</option>
+				</field>
+
+				<field
+					name="readmore_text"
+					type="text"
+					size="15"
+					default="Read More"
+					label="MOD_JETESTIMONIAL_FIELD_READMORETEXT_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_READMORETEXT_DESC" />
+
+				<field
+					name="readmore_align"
+					type="radio"
+					default="right"
+					class="btn-group"
+					label="MOD_JETESTIMONIAL_FIELD_READMOREALIGN_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_READMOREALIGN_DESC">
+					<option	value="left">MOD_JETESTIMONIAL_READMOREALIGN_LEFT</option>
+					<option	value="right">MOD_JETESTIMONIAL_READMOREALIGN_RIGHT</option>
+
+				</field>
+
+				<field name="sort" type="list" default="ordering" label="PARAMSORTBY" description="PARAMSORTBYDES">
+					<option value="ordering">PARAMSORTORDER</option>
+					<option value="id">PARAMSORTID</option>
+					<option value="name">PARAMSORTNAME</option>
+					<option value="random">PARAMSORTRANDOM</option>
+				</field>
+
+				<field name="order" type="list" default="desc" label="PARAMORDER" description="PARAMORDERDES">
+					<option value="asc">ASCENDING</option>
+					<option value="desc">DESCENDING</option>
+
+				</field>
+
+				<field
+					name="display_posted_date"
+					type="radio"
+					default="1"
+					class="btn-group"
+					label="MOD_JETESTIMONIAL_FIELD_DISPLAY_POSTDATE_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_DISPLAY_POSTDATE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+					name="display_release_date"
+					type="radio"
+					default="1"
+					class="btn-group"
+					label="MOD_JETESTIMONIAL_FIELD_DISPLAY_RELEASEDATE_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_DISPLAY_RELEASEDATE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+					name="jextn_date_format"
+					type="radio"
+					default="1"
+					class="btn-group"
+					label="MOD_JETESTIMONIAL_FIELD_FORMAT_POSTDATE_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_FORMAT_POSTDATE_DESC">
+					<option value="1">DATE_FORMAT_INDIAN</option>
+					<option value="0">DATE_FORMAT_AMERICAN</option>
+				</field>
+
+				<field
+					name="display_add_testimonial_link"
+					type="radio"
+					default="1"
+					class="btn-group"
+					label="MOD_JETESTIMONIAL_FIELD_ADD_TESTIMONIAL_LINK_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_ADD_TESTIMONIAL_LINK_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+					name="display_all_testimonial_link"
+					type="radio"
+					default="1"
+					class="btn-group"
+					label="MOD_JETESTIMONIAL_FIELD_ALL_TESTIMONIAL_LINK_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_ALL_TESTIMONIAL_LINK_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="add_all_testimonial_postion"
+					type="radio"
+					default="1"
+					class="btn-group"
+					label="MOD_JETESTIMONIAL_FIELD_ALL_TESTIMONIAL_LINK_POSITION_TOP_BOTTOM_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_ALL_TESTIMONIAL_LINK_POSITION_TOP_BOTTOM_DESC">
+					<option value="0">JTOP</option>
+					<option value="1">JBOTTOM</option>
+				</field>
+				<field
+					name="add_all_link_position"
+					type="list"
+					default="right"
+					label="MOD_JETESTIMONIAL_FIELD_ALL_ADD_TESTIMONIAL_LINK_POSITION_LABEL"
+					description="MOD_JETESTIMONIAL_FIELD_ALL_ADDTESTIMONIAL_LINK_POSITION_DESC">
+					<option	value="left">MOD_JETESTIMONIAL_ADD_ALL_TESTOMONIAL_LINK_POSITION_TOP_LEFT</option>
+					<option	value="right">MOD_JETESTIMONIAL_ADD_ALL_TESTOMONIAL_LINK_POSITION_TOP_RIGHT</option>
+					<option	value="center">MOD_JETESTIMONIAL_ADD_ALL_TESTOMONIAL_LINK_POSITION_TOP_CENTER</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					default=""
+					label="Module Class Suffix"
+					description="PARAMMODULECLASSSUFFIX" />
+			   	<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC" >
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

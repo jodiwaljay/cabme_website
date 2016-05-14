@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: faq.xml 20085 2011-01-05 02:42:55Z eddieajau $ -->
+<form>
+	<fieldset name="globalsettings">
+		<field name="id"
+			type="text"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description="JGLOBAL_FIELD_ID_DESC"
+			size="10"
+			default="0"
+			readonly="true"
+			class="readonly"
+		/>
+
+		<field name="theme" type="themes" label="COM_JETESTIMONIAL_FIELD_THEME_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_THEME_DESC" class="inputbox" onchange="selectTheme(this.value)"
+		>
+		</field>
+
+		<field name="orderby" type="orderby" label="COM_JETESTIMONIAL_FIELD_ORDERBY_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_ORDERBY_DESC" class="inputbox"
+		>
+		</field>
+
+		<field name="sortby"
+			type="sortby"
+			label="COM_JETESTIMONIAL_FIELD_SORTBY_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SORTBY_DESC"
+			class="inputbox"
+		>
+		</field>
+					
+		<field
+			name="show_image"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOW_IMAGE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_IMAGE_RESIZE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		
+		<field
+			name="show_pagination_jextn"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOW_PAGINATION_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_PAGINATION_DESC"
+			default="0"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		
+		<field
+			name="pagination_limit"
+			type="text"
+			label="COM_JETESTIMONIAL_FIELD_PAGINATION_LIMIT_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_PAGINATION_LIMIT_DESC"
+			class="inputbox"
+			size="15"
+		/>
+		<field
+			name="image_resize"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_IMAGE_RESIZE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_IMAGE_RESIZE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0" onclick="resizeAvatar(this.value)">JNO</option>
+			<option value="1" onclick="resizeAvatar(this.value)">JYES</option>
+		</field>
+
+		<field name="height" type="text" label="COM_JETESTIMONIAL_FIELD_HEIGHT_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_HEIGHT_DESC" class="inputbox" size="15" />
+
+		<field name="width" type="text" label="COM_JETESTIMONIAL_FIELD_WIDTH_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_WIDTH_DESC" class="inputbox" size="15" />
+
+		<field name="image_position"
+			type="imageposition"
+			label="COM_JETESTIMONIAL_FIELD_IMAGE_POSITION_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_IMAGE_POSITION_DESC"
+			class="inputbox"
+		>
+		</field>
+
+		<field
+			name="show_introtext"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_INTRO_TEXT_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_INTRO_TEXT_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="cat_image_resize"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_RESIZE_CAT_IMAGE_TEXT_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_RESIZE_CAT_IMAGE_TEXT_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0" onclick="resizeCatimage(this.value)">JNO</option>
+			<option value="1" onclick="resizeCatimage(this.value)">JYES</option>
+
+			<field name="cat_image_height" type="text" label="COM_JETESTIMONIAL_FIELD_HEIGHT_CAT_IMAGE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_HEIGHT_CAT_IMAGE_DESC" class="inputbox" size="15" />
+
+		<field name="cat_image_width" type="text" label="COM_JETESTIMONIAL_FIELD_WIDTH_CAT_IMAGE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_WIDTH_CAT_IMAGE_DESC" class="inputbox" size="15" />
+		</field>
+
+	</fieldset>
+</form>

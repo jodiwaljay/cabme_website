@@ -1,0 +1,123 @@
+.test h2{
+	font-size:30px;
+	text-align:center;
+	color:#5b6a77;
+}
+.testimonials{
+	width:100%;
+	height:240px;
+}
+
+.caption p{
+	color:#696969;
+	
+	font-weight:none;
+	margin-top:-10px;
+	text-align:center;
+	
+}
+.cap{
+	text-indent:55px;
+	font-size:17px;
+}
+.cap img{
+   float: right;
+}
+
+.para1 {
+    font-family: Comic Sans MS;
+    font-size: 15px;
+}
+.para{
+	
+	font-size:17px;
+	color:#3b4c5d;
+}
+blockquote {
+    border-left: 0px solid #eee;
+    float: right;
+    font-size: 17.5px;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+}
+
+.carousel-indicators {
+    bottom: 10px;
+    left: 50%;
+    list-style: outside none none;
+    margin-left: -30%;
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    top: 12em;
+    width: 60%;
+    z-index: 15;
+}
+.paragraph{
+	display:flex;
+}
+
+.para{
+	font-weight:900;
+}
+#tcb-testimonial-carousel {
+  margin-top: 0px;
+}
+#tcb-testimonial-carousel a {
+  color: #e84c3d;
+}
+#tcb-testimonial-carousel .text-brand {
+  color: #5b6a77;
+}
+#tcb-testimonial-carousel .carousel-indicators .active {
+  background: #FBE601;
+  width: 15px;
+  height: 15px;
+}
+#tcb-testimonial-carousel .no-margin {
+  margin: 0;
+}
+#tcb-testimonial-carousel .carousel-indicators li {
+  border: 1px solid #ccc;
+  width: 15px;
+  height: 15px;
+}
+#tcb-testimonial-carousel .carousel-control {
+  color: #e84c3d;
+  width: 5%;
+}
+#tcb-testimonial-carousel .carousel-control:hover,
+#tcb-testimonial-carousel .carousel-control:focus {
+  color: #e84c3d;
+}
+#tcb-testimonial-carousel .carousel-control.left,
+#tcb-testimonial-carousel .carousel-control.right {
+  background-image: none;
+}
+#tcb-testimonial-carousel .item {
+  padding: 15px 40px;
+  background: #ffffff;
+}
+#tcb-testimonial-carousel .media-object {
+  margin:0px auto auto;
+}
+@media screen and (max-width: 768px) {
+  #tcb-testimonial-carousel .media-object {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+	.carousel-indicators{
+		top: 30em;
+	}
+}
+.client-name {
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.img-name {
+    text-align: center;
+}

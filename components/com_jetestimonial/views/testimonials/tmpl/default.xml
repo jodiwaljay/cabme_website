@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_JETESTIMONIAL_VIEW_TESTIMONIAL_DEFAULTLAYOUT_TITLE" option="COM_TESTIMONIAL_VIEW_TESTIMONIAL_DEFAULTLAYOUT_OPTION">
+		<message>
+			<![CDATA[COM_JETESTIMONIAL_VIEW_TESTIMONIAL_DEFAULTLAYOUT_DESC]]>
+		</message>
+	</layout>
+</metadata>

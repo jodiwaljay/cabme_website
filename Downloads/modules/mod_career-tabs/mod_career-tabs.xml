@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.5.0">
+	<name>Career Tabs</name>
+	<author>Adodis! Demo</author>
+	<creationDate>April 2015</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Adodis. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@adodis.com</authorEmail>
+	<authorUrl>www.adodis.com</authorUrl>
+	<version>1.5.0</version>
+	<description>This module displays Career Tabs</description>
+	<files>
+		<filename module="mod_career-tabs">mod_career-tabs.php</filename>
+		<filename>index.html</filename>
+		
+	</files>
+	
+			
+</extension>

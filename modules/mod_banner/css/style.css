@@ -1,0 +1,114 @@
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+  }
+  .carousel-caption {
+    float: left;
+    margin-top: 20px ;
+    left: 0;
+    right: 0;
+    top: 15%;
+  }
+  .yellow-text{
+    color:#FBE601;
+  }
+  .right-text {
+    color: #fff;
+    float: right;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .name-icon {
+    background-image: url("http://localhost/projects/rekha/banner/images/Login-line.jpg");
+    background-repeat: no-repeat;
+    padding-top: 20px;
+  }
+  .name-icon:first-child {
+    background-image: url("http://localhost/projects/rekha/banner/images/Login-line.jpg");
+  }
+
+  .right-text h2 {
+    color:#FBE601;
+    font-weight: bold;
+  }
+
+  .img-icon {
+    padding-right: 20px;
+    padding-left: 15px;
+}
+#user-name {
+    background: url("images/register-icon1.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;
+}
+#mobile {
+    background: url("images/register-icon2.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;
+}
+#email {
+    background: url("images/register-icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;
+}
+#password {
+    background: url("images/register-icon4.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;
+}
+.input-text,.form-control.input-text:focus
+{
+    border: none;
+    padding: 0 0 10px 30px;
+    width: 100%;
+     box-shadow: none;
+}
+#car-type {
+  background: url("images/icon4.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;
+}
+#from {
+  background: url("images/icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line-half.png") no-repeat scroll center bottom;
+}
+#to {
+  background: url("images/icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line-half.png") no-repeat scroll center bottom;
+}
+#date {
+  background: url("images/icon1.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line-half.png") no-repeat scroll center bottom;
+}
+#time {
+  background: url("images/icon2.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line-half.png") no-repeat scroll center bottom;
+}
+#pickup {
+  background: rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;
+}
+#traveller {
+  background: url("images/icon.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;
+}
+#post-from{
+  background: url("images/icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;
+}
+#post-to{
+  background: url("images/icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;
+}
+.button-submit {
+    background-color: #fbe601;
+    border: medium none;
+    color: #000;
+    display: block;
+    font-weight: bold;
+    height: 50px;
+    margin: 0 auto;
+    width: 80%;
+}
+.date-time {
+  width: 50%;
+  float: left;
+}
+.background1 {
+  background:rgba(54, 77, 93, 0.5);
+}
+.background2 {
+  background-color:rgba(53, 35, 21, 0.4);
+}
+.background3 {
+  background-color: rgba(1, 1, 1, 0.4);
+}
+.social-media ul li {
+  display: inline-block;
+  margin: 0 8px 0 5px;
+}
+.form-group {
+  margin-bottom: 20px;
+}

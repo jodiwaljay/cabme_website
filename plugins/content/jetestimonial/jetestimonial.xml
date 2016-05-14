@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="content">
+	<name>plg_content_jetestimonial</name>
+	<author>J-Extension</author>
+	<creationDate>July 2010</creationDate>
+	<copyright>[2014] J-Extn</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>contact@jextn.com</authorEmail>
+	<authorUrl>http://www.jextn.com</authorUrl>
+	<version>3.0.8</version>
+	<description>JETESTIMONIAL_DESCRIPTION</description>
+	<files>
+		<filename plugin="jetestimonial">jetestimonial.php</filename>
+		<folder>jetestimonial</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_jetestimonial.ini</language>
+		<language tag="en-GB">en-GB.plg_content_jetestimonial.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field name="sort" type="list" default="ordering" label="PARAMSORTBY" description="PARAMSORTBYDES">
+					<option value="ordering">PARAMSORTORDER</option>
+					<option value="id">PARAMSORTID</option>
+					<option value="name">PARAMSORTNAME</option>
+					<option value="random">PARAMSORTRANDOM</option>
+				</field>
+				<field name="order" type="list" default="desc" label="PARAMORDER" description="PARAMORDERDES">
+					<option value="asc">ASCENDING</option>
+					<option value="desc">DESCENDING</option>
+				</field>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

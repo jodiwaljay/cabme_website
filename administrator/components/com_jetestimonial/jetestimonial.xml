@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade" version="3.0.0">
+	<name>JE Testimonial</name>
+	<license>GNU General Public License v2, see LICENSE.php</license>
+	<author>JExtension</author>
+	<copyright>[2014] - JExtn</copyright>
+	<creationDate>Januaury, 2012</creationDate>
+	<authorEmail>contact@jextn.com</authorEmail>
+	<authorUrl>http://www.jextn.com</authorUrl>
+	<version>3.0.9</version>
+	<description>
+		JE Testimonial is the long waited component for the Joomla users from our extended brain search. It gives the in depth flexibility for using testimonials in Joomla based website. We broke out all the boundaries which ever in the present testimonials component. Come and check out our component and we assure your satisfaction level will be high.
+	</description>
+	
+	<!-- Runs on install/uninstall/update; New in 1.6 -->
+	<scriptfile>script.php</scriptfile>
+	
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>jetestimonial.php</filename>
+		<filename>router.php</filename>
+
+		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>captcha</folder>
+		<folder>copyright</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>tables</folder>
+		<folder>views</folder>
+		<folder>mod_jetestimonial</folder>
+		<folder>mod_jefadertestimonial</folder>
+		<folder>plg_jeTestimonial</folder>
+	</files>
+
+	<languages folder="site">
+		<language tag="en-GB">en-GB.com_jetestimonial.ini</language>
+		<language tag="en-GB">en-GB.com_jetestimonial.sys.ini</language>
+	</languages>
+
+	<administration>	
+		<menu link="option=com_jetestimonial" img="components/com_jetestimonial/assets/images/icons/jextn.png">COM_JETESTIMONIAL_MAINMENU</menu>
+		<submenu>
+			<menu link="option=com_jetestimonial&amp;view=testimonials" view="testimonials" img="components/com_jetestimonial/assets/images/icons/testimonial.png">COM_JETESTIMONIAL_SUBMENUFAQ</menu>
+			<menu link="option=com_categories&amp;extension=com_jetestimonial" view="categories" img="components/com_jetestimonial/assets/images/icons/category_image.png">COM_JETESTIMONIAL_SUBMENUCATEGORY</menu>
+			<menu link="option=com_jetestimonial&amp;task=settings.edit&amp;id=1" view="settings" img="components/com_jetestimonial/assets/images/icons/settings.png">COM_JETESTIMONIAL_SUBMENUSETTINGS</menu>
+		</submenu>
+
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>jetestimonial.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>install.mysql.sql</filename>
+			<filename>uninstall.mysql.sql</filename>
+
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>copyright</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">en-GB.com_jetestimonial.ini</language>
+			<language tag="en-GB">en-GB.com_jetestimonial.sys.ini</language>
+		</languages>
+	</administration>
+
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.mysql.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+</extension>

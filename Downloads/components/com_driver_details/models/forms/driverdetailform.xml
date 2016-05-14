@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+	    <field name="id" type="text" default="0" label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_ID"
+	    readonly="true" class="readonly"
+	    description="JGLOBAL_FIELD_ID_DESC" />
+
+       <field name="created_by" type="createdby" default=""
+            label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_CREATED_BY"
+            description="COM_DRIVER_DETAILS_FORM_DESC_DRIVERDETAIL_CREATED_BY"  />
+
+       <field
+	       name="dname"
+	       type="text"
+	       size="40"
+	       class="inputbox"
+	       label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_DNAME"
+	       description="COM_DRIVER_DETAILS_FORM_DESC_DRIVERDETAIL_DNAME"
+
+	       filter="safehtml" />
+
+		<field
+			name="demail"
+			type="email"
+			label="Email"
+			description="Email"
+			validate="email" />
+
+
+       <field
+	       name="dmobile"
+	       type="text"
+	       size="40"
+	       class="inputbox"
+	       label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_DMOBILE"
+	       description="COM_DRIVER_DETAILS_FORM_DESC_DRIVERDETAIL_DMOBILE"
+	       filter="safehtml" />
+
+
+       <field
+	       name="dgen"
+	       type="list"
+	       label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_DGEN"
+	       description="COM_DRIVER_DETAILS_FORM_DESC_DRIVERDETAIL_DGEN" >
+	            <option value="">Select Gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+        </field>
+
+		<!--
+		<field
+			name="filter_dgen"
+			type="list"
+			onchange="this.form.submit();">
+			<option value="">COM_DRIVER_DETAILS_DRIVERDETAILS_DGEN_FILTER</option>
+			<option value="1">Male</option>
+			<option value="2">Female</option>
+		</field>
+		-->
+       <field
+	       name="daddr"
+	       type="textarea"
+	       label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_DADDR"
+	       description="COM_DRIVER_DETAILS_FORM_DESC_DRIVERDETAIL_DADDR"
+	       option_on="Yes"
+	       option_off="Yes">
+		   <group label="">
+		   		<option value=""></option>
+		   </group>
+	   </field>
+
+       <field
+	       name="cab_no[]"
+	       type="text"
+	       size="40"
+	       class="inputbox"
+	       label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_CAB_NO"
+	       description="COM_DRIVER_DETAILS_FORM_DESC_DRIVERDETAIL_CAB_NO"
+	       filter="safehtml" />
+
+		   <field
+		       name="cab_type"
+		       type="sql"
+			   query="select id,cab_type From #__cab_type"
+			   key_field="id"
+			   value_field="cab_type"
+		       size="40"
+		       class="inputbox"
+		       label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_CAB_TYPE"
+		       description="COM_DRIVER_DETAILS_FORM_DESC_DRIVERDETAIL_CAB_TYPE"
+		       filter="safehtml" />
+
+
+       <field
+	       name="price_per_km[]"
+	       type="text"
+	       size="40"
+	       class="inputbox"
+	       label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_PRICE_PER_KM"
+	       description="COM_DRIVER_DETAILS_FORM_DESC_DRIVERDETAIL_PRICE_PER_KM"
+	       filter="safehtml" />
+
+
+       <field
+	       name="route_prefer"
+	       type="text"
+	       size="40"
+	       class="inputbox"
+	       label="COM_DRIVER_DETAILS_FORM_LBL_DRIVERDETAIL_ROUTE_PREFER"
+	       description="COM_DRIVER_DETAILS_FORM_DESC_DRIVERDETAIL_ROUTE_PREFER"
+	       filter="safehtml" />
+
+       <field
+	       name="state"
+	       type="list"
+	       label="JSTATUS"
+	       description="JFIELD_PUBLISHED_DESC"
+	       class="inputbox"
+	       size="1"
+	       default="0">
+	       <option value="1">JPUBLISHED</option>
+	       <option value="0">JUNPUBLISHED</option>
+	       <option value="2">JARCHIVED</option>
+	       <option value="-2">JTRASHED</option>
+       </field>
+
+	</fieldset>
+
+	<fieldset
+		name="accesscontrol">
+		<field name="asset_id" type="hidden" filter="unset" />
+		<field name="rules"
+		     type="rules"
+		     label="JFIELD_RULES_LABEL"
+		     translate_label="false"
+		     filter="rules"
+		     validate="rules"
+		     class="inputbox"
+		     component="com_driver_details"
+		     section="driverdetail" />
+	</fieldset>
+</form>

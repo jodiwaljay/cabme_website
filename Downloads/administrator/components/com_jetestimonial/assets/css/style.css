@@ -1,0 +1,22 @@
+/**
+ * JE Testimonial package
+ * @author J-Extension <contact@jextn.com>
+ * @link http://www.jextn.com
+ * @copyright (C) 2010 - 2011 J-Extension
+ * @license GNU/GPL, see LICENSE.php for full license.
+**/
+
+div.icon-48-jetestimonial {
+	background: url('../images/icons/jetestimonial.png');
+}
+
+p.copyright {
+	margin-top : 10px;
+}
+
+div.width-44 {
+    width: 44%;
+}
+div.clr{
+	clear: both;
+}

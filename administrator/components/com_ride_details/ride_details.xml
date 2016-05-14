@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_ride_details</name>
+    <creationDate>2016-02-25</creationDate>
+    <copyright>2016 demo</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>demo</author>
+    <authorEmail>pncode.demo@gmail.com</authorEmail>
+    <authorUrl>http://fdfd.dfd</authorUrl>
+    <version>CVS: 1.0.0</version>
+    <description>Ride Details </description>
+    
+    
+    
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <update> <!-- Runs on update -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/update.mysql.utf8.sql</file>
+        </sql>
+    </update>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>ride_details.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+    </files>
+    <media destination="com_ride_details" folder="media">
+        <folder>js</folder>
+        <folder>css</folder>
+    </media>
+    <languages folder="languages/site">
+        
+			<language tag="en-GB">en-GB/en-GB.com_ride_details.ini</language>
+    </languages>
+    <administration>
+        <menu img="media/com_ride_details/images/s_com_ride_details.png" >COM_RIDE_DETAILS</menu>
+        <submenu>
+            
+			<menu link="option=com_ride_details&amp;view=ridedetails" view="ridedetails" img="media/com_ride_details/images/s_ridedetails.png" alt="Ride_details/Ridedetails">COM_RIDE_DETAILS_TITLE_RIDEDETAILS</menu>
+
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>ride_details.php</filename>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="languages/administrator">
+            
+			<language tag="en-GB">en-GB/en-GB.com_ride_details.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_ride_details.sys.ini</language>
+        </languages>
+    </administration>
+    <plugins>
+        <plugin group="search" plugin="ride_details"/>
+    </plugins>
+    
+</extension>
+<!-- Component built by the Joomla Component Creator -->
+<!-- http://www.component-creator.com/ -->

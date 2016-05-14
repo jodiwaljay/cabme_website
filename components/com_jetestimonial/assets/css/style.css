@@ -1,0 +1,1298 @@
+ * JE Testimonial package
+ * @author J-Extension <contact@jextn.com>
+ * @link http://www.jextn.com
+ * @copyright (C) 2010 - 2011 J-Extension
+ * @license GNU/GPL, see LICENSE.php for full license.
+**/
+
+div#je-quote table tr, div#je-quote table td {
+	border : none;
+}
+
+div#jefaqpro-paginationarea div#je-pagination {
+	 text-align: center;
+}
+
+div#jetestimonial-paginationarea div.list-footer ul {
+    list-style-type: none;
+    display: inline;
+    text-align:center;
+}
+
+div#jefaqpro-paginationarea div.je-limitbox {
+	padding : 10px 0px 5px 5px;
+}
+
+div#jefaqpro-paginationarea div.je-pagecounter {
+	padding : 5px;
+}
+
+div.pagination{
+	text-align:center;
+}
+
+/* -------------------------------------- First design  ---------------------------------------------------------- */
+
+div#je-testimonials1 {
+	margin-top : 15px;
+	color : #ffffff;
+}
+
+
+div#je-testimonials1 div#je-head {
+	position : absolute;
+	top : 130px;
+	width : 100%;
+	line-height: 36px;
+	margin :0;
+}
+
+div#je-testimonials1 div#je-head h1 {
+	font-family: 'Tangerine', arial, serif;
+	font-size: 40px;
+	color : #ffffff;
+	margin :0;
+	padding : 0;
+	border : none !important;
+}
+
+div#je-testimonials1  div#je-quote {
+	text-align: justify;
+	padding : 135px 125px 20px 10px;
+	margin :0;
+}
+
+div#je-testimonials1 div#je-con img#avatar {
+	margin-top : -12px;
+	margin-right : 15px;
+	padding :5px;
+	background : #fffffff;
+}
+
+div#je-testimonials1 div#je-audetails {
+	text-align: right;
+	padding-right : 125px;
+	color : #ffffff;
+	margin :0;
+}
+
+div#style1 div#je-title h2 {
+	text-align: right;
+	text-transform: uppercase;
+	color : #ffffff;
+	font-size: 15px;
+	margin :1;
+}
+
+div#style1 {
+	background : url(../images/style1/bot-left.jpg) bottom left no-repeat;
+}
+
+div#style1-inner {
+	background : url(../images/style1/bot-right.jpg) bottom right no-repeat;
+}
+
+div#style1-inner1 {
+	background : url(../images/style1/top-left.jpg) top left no-repeat ;
+}
+
+div#style1-inner2 {
+	background : url(../images/style1/top-right.png) top right no-repeat ;
+
+}
+
+div#style1-inner3 {
+	position: relative;
+	z-index: 1px;
+	height:100%;
+	padding : 20px;
+	margin :0;
+}
+
+/* -------------------------------------------- First Design End ------------------------------------------------------- */
+
+
+/* -------------------------------------------- Second design ---------------------------------------------------------- */
+
+div#je-testimonials2 {
+	margin-top : 15px;
+}
+
+div#style2 div#je-title h2 {
+	font-size: 15px;
+	margin : 0;
+	line-height: 25px;
+	color  : #000000;
+}
+
+div#je-testimonials2  div#je-quoteright {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials2  div#je-quoteleft {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials2 div#je-con div#je-quoteleft img{
+	margin : 0px 10px 5px 0px;
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+}
+
+div#je-testimonials2 div#je-con div#je-quoteright img{
+	margin : 0px 0px 5px 10px;
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+}
+
+div#je-testimonials2 div#je-audetails {
+	text-align: right;
+	margin :0;
+}
+
+div#style2 {
+	background : url(../images/style2/top-left.png) top left no-repeat #EFF8FF ;
+}
+
+div#style2-inner {
+	background : url(../images/style2/top-right.png) top right no-repeat ;
+}
+
+div#style2-inner1 {
+	background : url(../images/style2/bot-left.png) bottom left no-repeat;
+}
+
+div#style2-inner2 {
+	background : url(../images/style2/bot-right.png) bottom right no-repeat;
+	padding : 20px 75px 20px 75px;
+	height:100%;
+	margin :0;
+}
+
+/* -------------------------------------------------------------- Second Design End ------------------------------------------------------------------------------ */
+
+/* -------------------------------------------------------------- third Design ----------------------------------------------------------------------------------- */
+
+div#je-testimonials3 {
+	margin-top : 15px;
+	color : #ffffff;
+}
+
+div#je-testimonials3 div#je-head {
+	margin-top : -50px;
+	line-height: 40px;
+	margin-left : 30%;
+	position : absolute;
+}
+
+div#je-testimonials3 div#je-head h1 {
+	font-family: 'OFL Sorts Mill Goudy TT', arial, serif;
+	font-size: 30px;
+	color : #ffffff;
+	margin :0;
+	border : none !important;
+}
+
+div#je-testimonials3 h2{
+	color : #ffffff;
+	padding-top : 5px;
+	margin :0;
+}
+
+div#style3 div#je-title h2 {
+	font-size: 15px;
+	margin : 0;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+div#je-testimonials3  div#je-quoteleft {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials3 div#je-con div#je-quoteleft img{
+	margin : 0px 10px 5px 0px;
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+}
+
+div#je-testimonials3 div#je-audetails {
+	text-align: right;
+	margin :0;
+}
+
+div#style3 {
+	background : url(../images/style3/bot-right.jpg) bottom right no-repeat;
+}
+
+div#style3-inner {
+	background : url(../images/style3/bot-left.jpg) bottom left no-repeat ;
+}
+
+div#style3-inner1 {
+	background : url(../images/style3/top-right.jpg) top right no-repeat;
+}
+
+div#style3-inner2 {
+	background : url(../images/style3/top-left.jpg) top left no-repeat;
+}
+
+div#style3-inner3 {
+	background : url(../images/style3/head.png) 50% 25px no-repeat;
+	padding : 85px 25px 85px 20px ;
+	position: relative;
+	z-index: 1px;
+	height:100%;
+	margin :0;
+}
+
+/* -------------------------------------------------------- Third Design End -------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- Fourth Design ----------------------------------------------------------------------- */
+
+div#je-testimonials4 {
+	margin-top : 15px;
+	color : #ffffff;
+}
+
+div#je-testimonials4 h2{
+	color : #ffffff;
+	font-size: 15px;
+	margin : 0;
+	line-height: 25px;
+}
+
+div#je-testimonials4 div#je-head {
+	position : absolute;
+	top : 30px;
+	left : 100px;
+	line-height: 40px;
+	margin :0;
+}
+
+div#je-testimonials4 div#je-head h1 {
+	font-family: 'Inconsolata', arial, serif;
+	font-size: 40px;
+	color : #D6BCBD;
+	margin :0;
+	padding : 0;
+	border : none !important;
+}
+
+div#je-testimonials4  div#je-quoteright {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials4 div#je-con div#je-quoteright img{
+	margin : 0px 0px 5px 10px;
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+}
+
+div#je-testimonials4 div#je-audetails {
+	text-align: right;
+	margin :0;
+}
+
+div#style4 {
+	background : url(../images/style4/bot-right.jpg) bottom right no-repeat;
+}
+
+div#style4-inner {
+	background : url(../images/style4/bot-left.jpg) bottom left no-repeat ;
+}
+
+div#style4-inner1 {
+	background : url(../images/style4/top-right.jpg) top right no-repeat;
+}
+
+div#style4-inner2 {
+	background : url(../images/style4/top-left.jpg) top left no-repeat;
+}
+
+div#style4-inner3 {
+	background : url(../images/style4/heading.png) 20px 20px no-repeat;
+	position: relative;
+	z-index: 1px;
+	padding : 100px 20px 20px 20px;
+	height:100%;
+	margin :0;
+}
+
+/* -------------------------------------------------------------------- Fourth Design End ----------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------- Fifth Design ---------------------------------------------------------------- */
+
+div#je-testimonials5 div#je-head {
+	position : absolute;
+	top : 30px;
+}
+
+div#je-testimonials5 div#je-head h1 {
+	font-family: 'Georgia',arial, serif;
+	font-size: 15px;
+	color : #ffffff;
+	margin :0;
+	padding : 0;
+	border : none !important;
+}
+
+div#je-testimonials5 {
+	margin-top : 15px;
+}
+
+div#style5 div#je-title h2 {
+	font-size: 15px;
+	margin : 0;
+	line-height: 25px;
+	color : #000000;
+}
+
+div#je-testimonials5 div#je-con div#je-quote img{
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+	text-align: right;
+	margin-right : 0px;
+}
+
+div#je-testimonials5 div#je-audetails {
+	text-align: right;
+	padding-right : 5px;
+	margin :0;
+}
+
+div#style5 {
+	background : url(../images/style5/bot-right.jpg) bottom right no-repeat;
+}
+
+div#style5-inner {
+	background : url(../images/style5/bot-left.jpg) bottom left no-repeat ;
+}
+
+div#style5-inner1 {
+	background : url(../images/style5/top-right.jpg) top right no-repeat;
+}
+
+div#style5-inner2 {
+	background : url(../images/style5/top-left.jpg) top left no-repeat;
+}
+
+div#style5-inner3 {
+	background : url(../images/style5/green.png) left 25px no-repeat;
+	position: relative;
+	z-index: 1px;
+	padding : 25px;
+	margin : 0px 0px 0px -8px;
+	height:100%;
+}
+
+div#style5 div#je-titlecon {
+	padding-top : 12px;
+	text-align: justify;
+	margin :0;
+}
+
+/* ------------------------------------------------------------------------- Fifth Design End ------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- Sixth Design -----------------------------------------------------------  */
+
+div#je-testimonials6 {
+	margin-top : 15px;
+	border : solid 1px #ffffff;
+	color : #4F2E05;
+}
+
+div#je-testimonials6  div#je-quoteright {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials6  div#je-quoteleft {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials6 div#je-con div#je-quoteleft img{
+	margin : 0px 10px 5px 0px;
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+}
+
+div#je-testimonials6 div#je-con div#je-quoteright img{
+	margin : 0px 0px 5px 10px;
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+	background-color: #F7F7F7;
+}
+
+div#je-testimonials6 div#je-audetails {
+	text-align: right;
+	margin :0;
+}
+
+
+div#style6 {
+}
+
+div#style6-inner {
+	background: url(../images/style6/top-bg.jpg) top repeat-x #FAE163;
+}
+
+div#style6-inner1 {
+	background : url(../images/style6/bg.jpg) bottom left repeat-x;
+}
+
+div#style6-inner2 {
+	background: url(../images/style6/bot-right.jpg) bottom right no-repeat ;
+}
+
+div#style6-inner3 {
+	height:100%;
+	padding : 20px 0px 49px 0px;
+	margin : 0px;
+}
+
+div#style6 span#je-author {
+	background: url(../images/style6/aero_icon.jpg) no-repeat ;
+	padding-left : 20px;
+}
+
+div#style6 div#je-con {
+	padding : 10px 20px 2px 20px ;
+	margin : 0px;
+}
+
+div#style6 div#je-audetails {
+	padding : 10px 20px 0;
+	margin : 0px;
+}
+
+div#style6 div#je-title {
+	position: relative;
+	z-index: 1px;
+	margin : 0px;
+}
+
+div#style6 div#je-title1 {
+	padding-top : 5px;
+	padding-bottom : 5px;
+	background : #FEEEA3;
+	margin : 0px;
+}
+
+div#style6 div#je-title1 h2 {
+	padding-left : 25px;
+	font-weight: 600;
+	font-size: 16px;
+	margin : 0;
+	color : #4F2E05;
+	line-height: 20px;
+}
+/* ----------------------------------------------------------------------- Sixth Design End --------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------- Seven Design ------------------------------------------------------------- */
+
+div#je-testimonials7 {
+	margin-top : 15px;
+}
+
+div#style7 div#je-title h2 {
+	font-size: 15px;
+	margin : 0;
+	color : #000000;
+	line-height: 25px;
+}
+
+div#je-testimonials7  div#je-quoteright {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials7  div#je-quoteleft {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials7 div#je-con div#je-quoteleft img{
+	margin : 0px 10px 5px 0px;
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+}
+
+div#je-testimonials7 div#je-con div#je-quoteright img{
+	margin : 0px 0px 5px 10px;
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+}
+
+div#je-testimonials7 div#je-audetails {
+	text-align: right;
+	margin :0;
+}
+
+div#style7-inner2 {
+	padding : 20px;
+	background: #EDEDED;
+	height:100%;
+	margin :0;
+}
+
+div#style7 div#style71 {
+	background: url(../images/style7/bg.gif) no-repeat left -19px;
+	height : 8px;
+}
+
+div#style7 div#style711 {
+	background: url(../images/style7/bg1.gif) no-repeat right -19px;
+	height : 8px;
+}
+
+div#style7 div#style72 {
+	background: url(../images/style7/bg.gif) no-repeat left -35px;
+	height : 30px;
+}
+
+div#style7 div#style722 {
+	background: url(../images/style7/bg1.gif) no-repeat right -35px;
+	height : 30px;
+}
+
+/* ----------------------------------------------- Seven Design End ---------------------------------------------------------------- */
+
+/* -------------------------------------------------------------- 8 Design ----------------------------------------------------------------------------------- */
+div#je_testimonial_newtemp8 table.je_testimonial_newtemp_table {
+	border:0 !important;
+	margin:15px 0 15px 0;
+	width:100%;
+	text-align: justify;
+	border-collapse:collapse !important;
+}
+div#je_testimonial_newtemp8 table.je_testimonial_newtemp_table tbody.je_testimonial_newtemp_tbody {
+	border:0 !important;
+}
+div#je_testimonial_newtemp8 table.je_testimonial_newtemp_table tbody tr.je_testimonial_newtemp_tr {
+	border:0 !important;
+	margin: 0 !important;
+}
+div#je_testimonial_newtemp8 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tl {
+	background: url(../images/style8/orange_left_top.png) no-repeat top left;
+	border:0 !important;
+	margin: 0 !important;
+	height: 10px;
+}
+div#je_testimonial_newtemp8 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tr {
+	background: url(../images/style8/orange_right_top.png) no-repeat top right;
+	border:0 !important;
+	margin: 0 !important;
+	height: 20px;
+}
+div#je_testimonial_newtemp8 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_bl {
+	background: url(../images/style8/orange_left_bottom.png) no-repeat bottom left;
+	border:0 !important;
+	margin: 0 !important;
+	width: 15px;
+}
+div#je_testimonial_newtemp8 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_br {
+	background: url(../images/style8/orange_right_bottom.png) no-repeat bottom right;
+	border:0 !important;
+	margin: 0 !important;
+	padding: 0px 10px 10px 0px;
+}
+div.je_testimonial_newtemp_content_bg8 div#je-con img.je_imagebor_8{
+	padding: 3px;
+	border:1px solid #E4A540;
+	float:left;
+	margin: 0 7px 7px 0;
+}
+div.je_testimonial_newtemp_content_bg8 div#je-audetails{
+	text-align:right;
+}
+div.je_testimonial_newtemp_content_bg8 div#je-audetails{
+	padding-top: 10px;
+}
+p#style8para{
+	float:left;
+}
+a#style8play img#buttonimg5{
+	margin-right: 8px;
+}
+div.je_testimonial_newtemp_content_bg8{
+	background: url("../images/style8/bg_qot.png") no-repeat scroll 96% center transparent;
+}
+/* -------------------------------------------------------- 8 Design End -------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------- 9 Design ----------------------------------------------------------------------------------- */
+div#je_testimonial_newtemp9 table.je_testimonial_newtemp_table {
+	border:0 !important;
+	margin:15px 0 15px 0;
+	width:100%;
+	text-align: justify;
+	border-collapse:collapse !important;
+}
+div#je_testimonial_newtemp9 table.je_testimonial_newtemp_table tbody.je_testimonial_newtemp_tbody {
+	border:0 !important;
+}
+div#je_testimonial_newtemp9 table.je_testimonial_newtemp_table tbody tr.je_testimonial_newtemp_tr {
+	border:0 !important;
+	margin: 0 !important;
+}
+div#je_testimonial_newtemp9 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tl {
+	background: url(../images/style9/blue_left_top.png) no-repeat top left;
+	border:0 !important;
+	margin: 0 !important;
+	height: 10px;
+}
+div#je_testimonial_newtemp9 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tr {
+	background: url(../images/style9/blue_right_top.png) no-repeat top right;
+	border:0 !important;
+	margin: 0 !important;
+	height: 20px;
+}
+div#je_testimonial_newtemp9 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_bl {
+	background: url(../images/style9/blue_left_bottom.png) no-repeat bottom left;
+	border:0 !important;
+	margin: 0 !important;
+	width: 8px;
+}
+div#je_testimonial_newtemp9 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_br {
+	background: url(../images/style9/blue_right_bottom.png) no-repeat bottom right;
+	border:0 !important;
+	margin: 0 !important;
+	padding: 0px 15px 15px 10px;
+}
+div.je_testimonial_newtemp_content_bg9 div#je-con img.je_imagebor_9{
+	padding: 3px;
+	border:1px solid #E4A540;
+	float:left;
+	margin: 0 7px 7px 0;
+}
+div.je_testimonial_newtemp_content_bg9 div#je-audetails{
+	text-align:right;
+}
+div.je_testimonial_newtemp_content_bg9 div#je-audetails{
+	padding-top: 10px;
+}
+p#style9para{
+	float:left;
+}
+a#style9play img#buttonimg5{
+	margin-right: 8px;
+}
+div.je_testimonial_newtemp_content_bg9{
+	background: url("../images/style9/bg_qot.png") no-repeat scroll 96% center transparent;
+}
+/* -------------------------------------------------------- 9 Design End -------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------- 10 Design ----------------------------------------------------------------------------------- */
+div#je_testimonial_newtemp10 table.je_testimonial_newtemp_table {
+	border:0 !important;
+	margin:15px 0 15px 0;
+	width:100%;
+	text-align: justify;
+	border-collapse:collapse !important;
+}
+div#je_testimonial_newtemp10 table.je_testimonial_newtemp_table tbody.je_testimonial_newtemp_tbody {
+	border:0 !important;
+}
+div#je_testimonial_newtemp10 table.je_testimonial_newtemp_table tbody tr.je_testimonial_newtemp_tr {
+	border:0 !important;
+	margin: 0 !important;
+}
+div#je_testimonial_newtemp10 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tl {
+	background: url(../images/style10/green_left_top.png) no-repeat top left;
+	border:0 !important;
+	margin: 0 !important;
+	height: 10px;
+}
+div#je_testimonial_newtemp10 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tr {
+	background: url(../images/style10/green_right_top.png) no-repeat top right;
+	border:0 !important;
+	margin: 0 !important;
+	height: 20px;
+}
+div#je_testimonial_newtemp10 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_bl {
+	background: url(../images/style10/green_left_bottom.png) no-repeat bottom left;
+	border:0 !important;
+	margin: 0 !important;
+	width: 10px;
+}
+div#je_testimonial_newtemp10 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_br {
+	background: url(../images/style10/green_right_bottom.png) no-repeat bottom right;
+	border:0 !important;
+	margin: 0 !important;
+	padding: 0px 15px 15px 10px;
+}
+div.je_testimonial_newtemp_content_bg10 div#je-con img.je_imagebor_10{
+	padding: 3px;
+	border:1px solid #E4A540;
+	float:left;
+	margin: 0 7px 7px 0;
+}
+div.je_testimonial_newtemp_content_bg10 div#je-audetails{
+	text-align:right;
+}
+div.je_testimonial_newtemp_content_bg10 div#je-audetails{
+	padding-top: 10px;
+}
+p#style10para{
+	float:left;
+}
+a#style10play img#buttonimg5{
+	margin-right: 8px;
+}
+div.je_testimonial_newtemp_content_bg10{
+	background: url("../images/style10/bg_qot.png") no-repeat scroll 96% center transparent;
+	padding: 20px 0 14px 0;
+}
+div#je_testimonial_newtemp10 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tr div#je-title10{
+	margin-top:12px;
+	margin-left:10px;
+}
+div#je_testimonial_newtemp10 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tr div#je-title10 h2{
+	margin:0;
+}
+/* -------------------------------------------------------- 10 Design End -------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------- 11 Design ----------------------------------------------------------------------------------- */
+div#je_testimonial_newtemp11 table.je_testimonial_newtemp_table {
+	border:0 !important;
+	margin:15px 0 15px 0;
+	width:100%;
+	text-align: justify;
+	border-collapse:collapse !important;
+}
+div#je_testimonial_newtemp11 table.je_testimonial_newtemp_table tbody.je_testimonial_newtemp_tbody {
+	border:0 !important;
+}
+div#je_testimonial_newtemp11 table.je_testimonial_newtemp_table tbody tr.je_testimonial_newtemp_tr {
+	border:0 !important;
+	margin: 0 !important;
+}
+div#je_testimonial_newtemp11 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tl {
+	/*background: url(../images/style11/blue_left_top.png) no-repeat top left;*/
+	background: url("../images/style11/blue_shade_top.png") no-repeat scroll left top transparent;
+	border:0 !important;
+	margin: 0 !important;
+	height: 10px;
+	width:163px;
+}
+div#je_testimonial_newtemp11 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tr {
+	background: url(../images/style11/blue_right_top.png) no-repeat top right;
+	border:0 !important;
+	margin: 0 !important;
+	height: 20px;
+}
+div#je_testimonial_newtemp11 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_bl {
+	background: url(../images/style11/blue_shade_bottom.png) no-repeat bottom left;
+	border:0 !important;
+	margin: 0 !important;
+	width: 8px;
+}
+div#je_testimonial_newtemp11 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_br {
+	background: url(../images/style11/blue_right_bottom.png) no-repeat bottom right;
+	border:0 !important;
+	margin: 0 !important;
+}
+div.je_testimonial_new11bt img.je_imagebor_11{
+	border:2px solid #fff;
+}
+div.je_testimonial_newtemp_content_bg11 div#je-audetails{
+	text-align:right;
+}
+div.je_testimonial_newtemp_content_bg11 div#je-audetails{
+	padding-top: 10px;
+	padding-right: 28px;
+}
+p#style11para{
+	padding-right: 20px;
+}
+a#style11play img#buttonimg5{
+	margin-right: 8px;
+}
+td.je_testimonial_newtemp_td_bl div.je_testimonial_new11bt{
+	text-align:center;
+}
+div.je_testimonial_newtemp_content_bg11{
+	background: url("../images/style11/blue_image.png") no-repeat scroll right bottom transparent;
+	padding: 0px 15px 15px 10px;
+}
+/* -------------------------------------------------------- 11 Design End -------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------- 12 Design ----------------------------------------------------------------------------------- */
+div#je_testimonial_newtemp12 table.je_testimonial_newtemp_table {
+	border:0 !important;
+	margin:15px 0 15px 0;
+	width:100%;
+	text-align: justify;
+	border-collapse:collapse !important;
+}
+div#je_testimonial_newtemp12 table.je_testimonial_newtemp_table tbody.je_testimonial_newtemp_tbody {
+	border:0 !important;
+}
+div#je_testimonial_newtemp12 table.je_testimonial_newtemp_table tbody tr.je_testimonial_newtemp_tr {
+	border:0 !important;
+	margin: 0 !important;
+}
+div#je_testimonial_newtemp12 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tl {
+	background: url(../images/style12/green_left_top.png) no-repeat top left;
+	border:0 !important;
+	margin: 0 !important;
+	height: 10px;
+}
+div#je_testimonial_newtemp12 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tr {
+	background: url(../images/style12/green_right_top.png) no-repeat top right;
+	border:0 !important;
+	margin: 0 !important;
+	height: 20px;
+}
+div#je_testimonial_newtemp12 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_bl {
+	background: url(../images/style12/green_left_bottom.png) no-repeat bottom left;
+	border:0 !important;
+	margin: 0 !important;
+	width: 16px;
+}
+div#je_testimonial_newtemp12 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_br {
+	background: url(../images/style12/green_right_bottom.png) no-repeat bottom right;
+	border:0 !important;
+	margin: 0 !important;
+	padding: 0 15px 26px 1px;
+}
+div.je_testimonial_newtemp_content_bg12 div#je-con img.je_imagebor_12{
+	float:left;
+	margin: 0 7px 7px 0;
+}
+div.je_testimonial_newtemp_content_bg12 div#je-audetails{
+	text-align:right;
+}
+div.je_testimonial_newtemp_content_bg12 div#je-audetails{
+	padding-top: 10px;
+}
+p#style12para{
+	float:left;
+	*padding-right:60px;
+}
+a#style12play img#buttonimg5{
+	margin-right: 8px;
+}
+div.je_testimonial_newtemp_content_bg12{
+	background: url("../images/style12/green_dots.png") no-repeat scroll right bottom transparent;
+	padding-right:66px;
+}
+table.table_temp12img_table{
+	border:0 !important;
+	margin:0 7px 7px 0 !important;
+	padding:0 !important;
+	float:left;
+	border-collapse:collapse !important;
+}
+table.table_temp12img_table tbody.table_temp12img_tbody, table.table_temp12img_table tbody.table_temp12img_tbody tr{
+	border:0 !important;
+	margin:0 !important;
+	padding:0 !important;
+}
+table.table_temp12img_table tbody.table_temp12img_tbody tr td.table_temp12img_tdtl{
+	border:0 !important;
+	margin:0 !important;
+	padding:0 !important;
+	background: url(../images/style12/green_image_bg_top_left.png) no-repeat top left;
+	height:15px;
+}
+table.table_temp12img_table tbody.table_temp12img_tbody tr td.table_temp12img_tdtr{
+	border:0 !important;
+	margin:0 !important;
+	padding:0 !important;
+	background: url(../images/style12/green_image_bg_top_right.png) no-repeat top right;
+}
+table.table_temp12img_table tbody.table_temp12img_tbody tr td.table_temp12img_tdbl{
+	border:0 !important;
+	margin:0 !important;
+	padding:0 !important;
+	width:15px;
+	background: url(../images/style12/green_image_bg_bottom_left.png) no-repeat bottom left;
+}
+table.table_temp12img_table tbody.table_temp12img_tbody tr td.table_temp12img_tdbr{
+	border:0 !important;
+	margin:0 !important;
+	padding: 0 10px 10px 0;
+	background: url(../images/style12/green_image_bg_bottom_right.png) no-repeat bottom right;
+}
+/* -------------------------------------------------------- 12 Design End -------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------- 13 Design ----------------------------------------------------------------------------------- */
+div#je_testimonial_newtemp13 table.je_testimonial_newtemp_table {
+	border:0 !important;
+	margin:15px 0 15px 0;
+	width:100%;
+	text-align: justify;
+	border-collapse:collapse !important;
+}
+div#je_testimonial_newtemp13 table.je_testimonial_newtemp_table tbody.je_testimonial_newtemp_tbody {
+	border:0 !important;
+}
+div#je_testimonial_newtemp13 table.je_testimonial_newtemp_table tbody tr.je_testimonial_newtemp_tr {
+	border:0 !important;
+	margin: 0 !important;
+}
+div#je_testimonial_newtemp13 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tl {
+	background: url(../images/style13/perp_top_left.png) no-repeat top left;
+	border:0 !important;
+	margin: 0 !important;
+	height: 10px;
+}
+div#je_testimonial_newtemp13 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_tr {
+	background: url(../images/style13/perp_right_top.png) no-repeat top right;
+	border:0 !important;
+	margin: 0 !important;
+	height: 20px;
+}
+div#je_testimonial_newtemp13 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_bl {
+	background: url(../images/style13/perp_left_bottom.png) no-repeat bottom left;
+	border:0 !important;
+	margin: 0 !important;
+	width: 16px;
+}
+div#je_testimonial_newtemp13 table.je_testimonial_newtemp_table tbody tr td.je_testimonial_newtemp_td_br {
+	background: url(../images/style13/perp_right_bottom.png) no-repeat bottom right;
+	border:0 !important;
+	margin: 0 !important;
+	padding: 0px 15px 15px 10px;
+}
+div.je_testimonial_newtemp_content_bg13 div#je-con img.je_imagebor_13{
+	border:2px solid #fff;
+	float:left;
+	margin: 0 7px 7px 0;
+}
+div.je_testimonial_newtemp_content_bg13 div#je-audetails{
+	text-align:right;
+}
+div.je_testimonial_newtemp_content_bg13 div#je-audetails{
+	padding-top: 10px;
+}
+p#style13para{
+	float:left;
+	*width:50%;
+}
+a#style13play img#buttonimg5{
+	margin-right: 8px;
+}
+div.je_testimonial_newtemp_content_bg13{
+	background: url("../images/style13/perp_dots.png") no-repeat scroll right center transparent;
+	padding-right: 52px;
+}
+/* -------------------------------------------------------- 13 Design End -------------------------------------------------------------------- */
+
+div #add {
+text-align:right;
+}
+
+#image{
+	border:3px solid #797979;
+}
+.video{
+	border-bottom:1px solid black;
+}
+
+.popup{
+	height:341px;
+	width:548px;
+}
+
+#all{
+	background:none !important;
+}
+
+div #buttonimg{
+	border: none !important;
+}
+
+#buttonimg4{
+	border: none !important;
+	margin-right:13px;
+	padding-bottom:11px;
+	margin-bottom:0px;
+}
+
+#buttonimg5{
+	border: none !important;
+	float:right;
+	margin-top:5px;
+	margin-left:10px;
+
+}
+
+#play{
+	text-decoration:none;
+}
+
+p{
+	margin:0px !important;
+}
+
+#main{
+	min-height:0px !important;
+	padding:0px !important;
+}
+
+#videoh3{
+	border-bottom:1px solid #000000;
+	border-bottom-width:100%;
+	background-color:#EBEBEB;
+	padding-top:15px;
+	text-align:center;
+	color:#000000;
+}
+
+#videotext{
+	text-decoration:none;
+}
+
+#videoimage{
+	border:5px solid #797979;
+}
+
+#videoobject{
+	border:1px solid #797979;
+	width:97%;
+	height:101%;
+}
+
+#style5play{
+	float:right;
+}
+
+#style1play{
+	text-align:right;
+	color:#000000;
+	font-size:16px;
+	text-indent:15px;
+	padding-right:23px;
+	padding-bottom:4px;
+
+}
+
+#style6play{
+	color:#000000;
+	font-size:16px;
+	padding-bottom:4px;
+}
+
+
+#style7play{
+	color:#000000;
+	font-size:16px;
+	text-indent:15px;
+	padding-bottom:4px;
+}
+
+a:hover{
+	text-decoration:none !important;
+}
+
+.contentpane{
+	background:none !important;
+	margin:10px 0 0 0;
+}
+
+#sbox-window{
+	-moz-border-radius:0px  !important;
+	background-color:#ffffff !important;
+	height:364px;
+	width:551px;
+	padding:0px !important;
+}
+
+div#sbox-content.sbox-content-iframe{
+}
+
+#sbox-content{
+	background-color:none !important;
+	background-image:url(../images/video-white-bg.png) no-repeat  !important;
+}
+
+#sbox-btn-close{
+	background:url(../images/closebox.png) no-repeat scroll left top transparent !important;
+}
+
+.sbox-bg-e,.sbox-bg-w,.sbox-bg-n,.sbox-bg-s,.sbox-bg-se,.sbox-bg-ne,.sbox-bg-sw,.sbox-bg-nw{
+	background:none !important;
+	width:0px !important;
+}
+
+div#style4-inner3{
+	padding:100px 20px 0px !important;
+}
+/*  ------------------------------------Category listing-----------------------------------------------  */
+/* --- Category listing --- */
+div#contentarea tr{
+	border :none;
+
+}
+div#contentarea td{
+	border :none;
+
+}
+div#je-categorylisting1 {
+	border : solid 1px #7C4677;
+	background : #7C4677;
+	padding : 8px;
+	color : #FFFFFF;
+	margin-bottom: 10px;
+}
+div#je-categorylisting1 a
+{
+	color : #FFFFFF;
+	font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+div#je-categorylisting2 {
+	border : solid 1px #CCCCCC;
+	background : #EFF8FF;
+	padding : 8px;
+	color : #333333;
+	margin-bottom: 10px;
+}
+div#je-categorylisting2 a
+{
+	color: #000000;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+
+
+}
+div#je-categorylisting3 {
+	border : solid 1px #B194B0;
+	background : #21B5D9;
+	padding : 8px;
+	color : #333333;
+	margin-bottom: 10px;
+}
+div#je-categorylisting3 a
+{
+	color : #FFFFFF;
+	 font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#je-categorylisting4 {
+	border : solid 1px #5E7985;
+	background : #560406;
+	padding : 8px;
+	color : #000105;
+	margin-bottom: 10px;
+}
+
+div#je-categorylisting4 a
+{
+	color : #FFFFFF;
+	font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+div#je-categorylisting4 div#je-introtext{
+	color:#ffffff;
+}
+
+div#je-categorylisting5 {
+	border : solid 1px #48AD11;
+	background : #6F9F17;
+	padding : 8px;
+	color : #000332;
+	margin-bottom: 10px;
+}
+div#je-categorylisting5 a
+{
+	color : #000000;
+	 font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+div#je-categorylisting6 {
+	border : solid 1px #B6CEE8;
+	background : #FBEFA3;
+	padding : 8px;
+	color : #000107;
+	margin-bottom: 10px;
+}
+div#je-categorylisting6 a
+{
+	color : #000000;
+	 font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+div#je-categorylisting7 {
+	border : solid 1px #F6F0E0;
+	background : #EDEDED;
+	padding : 8px;
+	color : #000000;
+	margin-bottom: 10px;
+}
+div#je-categorylisting7 a
+{
+	color : #000000;
+	 font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+/* --- Intro text ---- */
+
+div#je-introtext
+{
+
+	padding : 5px 2px 0px 10px;
+	text-align: justify;
+}
+div#je-introtext1
+{
+
+	padding : 5px 2px 26px 10px;
+	text-align: justify;
+}
+div#je-introtext p
+{
+	padding : 5px 2px 12px 0px;
+
+}
+div#je-introtext p
+{
+	padding : 5px 2px 12px 0px;
+
+}
+
+div#je-pagination.pagination ul
+{
+	text-align: center;
+}
+
+img#autarticaptcha{
+	position:relative;
+	top:-4px;
+}
+div.clr{
+	clear: both;
+}
+
+div#je-testimonials6 span,div#je-testimonials6 p{
+  color: #000;
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_BOOKACAB_FORM_LBL_BOOKCAB_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" />
+
+       <field name="created_by" type="createdby" default=""
+            label="COM_BOOKACAB_FORM_LBL_BOOKCAB_CREATED_BY"
+            description="COM_BOOKACAB_FORM_DESC_BOOKCAB_CREATED_BY"  />
+
+       <field name="modified_by" type="modifiedby" default=""
+            label="COM_BOOKACAB_FORM_LBL_BOOKCAB_MODIFIED_BY"
+            description="COM_BOOKACAB_FORM_DESC_BOOKCAB_MODIFIED_BY"  />
+
+       <field name="date" type="calendar" class="inputbox"
+         required="true"
+         default="0000-00-00"
+            label="COM_BOOKACAB_FORM_LBL_BOOKCAB_DATE"
+            description="COM_BOOKACAB_FORM_DESC_BOOKCAB_DATE"
+        filter="safehtml" />
+
+       <field name="time" type="text" size="40" class="inputbox"
+            label="COM_BOOKACAB_FORM_LBL_BOOKCAB_TIME"
+            description="COM_BOOKACAB_FORM_DESC_BOOKCAB_TIME"
+         default="00:00:00"
+         required="true"
+        filter="safehtml" />
+
+       <field name="from" type="text" size="40" class="inputbox"
+            label="COM_BOOKACAB_FORM_LBL_BOOKCAB_FROM"
+            description="COM_BOOKACAB_FORM_DESC_BOOKCAB_FROM"
+         required="true"
+        filter="safehtml" />
+
+       <field name="to" type="text" size="40" class="inputbox"
+            label="COM_BOOKACAB_FORM_LBL_BOOKCAB_TO"
+            description="COM_BOOKACAB_FORM_DESC_BOOKCAB_TO"
+         required="true"
+        filter="safehtml" />
+
+       <field name="cab_type" type="text" size="40" class="inputbox"
+            label="Cab Type"
+            description="Cab Type"
+         required="true"
+        filter="safehtml" />
+
+       <field name="name" type="text" size="40" class="inputbox"
+            label="COM_BOOKACAB_FORM_LBL_BOOKCAB_NAME"
+            description="COM_BOOKACAB_FORM_DESC_BOOKCAB_NAME"
+         required="true"
+        filter="safehtml" />
+
+       <field name="email" type="text" size="40" class="inputbox"
+            label="COM_BOOKACAB_FORM_LBL_BOOKCAB_EMAIL"
+            description="COM_BOOKACAB_FORM_DESC_BOOKCAB_EMAIL"
+         required="true"
+        filter="safehtml" />
+
+       <field name="mobile" type="text" size="40" class="inputbox"
+            label="COM_BOOKACAB_FORM_LBL_BOOKCAB_MOBILE"
+            description="COM_BOOKACAB_FORM_DESC_BOOKCAB_MOBILE"
+         required="true"
+        filter="safehtml" />
+
+        <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+        <option value="2">JARCHIVED</option>
+        <option value="-2">JTRASHED</option>
+    </field>
+
+        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>

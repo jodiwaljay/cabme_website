@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: helloworld.xml 14 2009-11-02 18:35:20Z chdemko $ -->
+<config>
+	<fieldset
+		name="faq"
+		label="COM_JETESTIMONIAL_CONFIG_COMPONENT_SETTINGS_LABEL"
+		description="COM_JETESTIMONIAL_CONFIG_COMPONENT_SETTINGS_DESC"
+	>
+		<field
+			name="show_footertext"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOW_FOOTERTEXT_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOW_FOOTERTEXT_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+
+		<field
+			name="auto_publish"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_AUTO_PUBLISH_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_AUTO_PUBLISH_DESC"
+			default="0"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="captcha_show"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_CAPTCHA_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_CAPTCHA_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+	</fieldset>
+
+	<fieldset
+		name="userform"
+		label="COM_JETESTIMONIAL_CONFIG_COMPONENT_USERFORMSETTINGS_LABEL"
+		description="COM_JETESTIMONIAL_CONFIG_COMPONENT_USERFORMSETTINGS_DESC"
+	>
+		<field
+			name="companyname"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_COMPANYNAME_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_COMPANYNAME_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="city"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_CITY_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_CITY_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="state"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_STATE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_STATE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="country"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_COUNTRY_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_COUNTRY_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="email"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_EMAIL_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_EMAIL_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="website"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_WEBSITE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_WEBSITE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="release_date"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_RELEASEDATE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_RELEASE_DATE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="avatar"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_AVATAR_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_AVATAR_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="enable_audio"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_ENABLE_AUDIO_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_ENABLE_AUDIO_DESC"
+			default="0"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="enable_video"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_ENABLE_VIDEO_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_ENABLE_VIDEO_DESC"
+			default="0"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="video"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_VIDEO_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_VIDEO_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">COM_JETESTIMONIAL_FIELD_ENABLE_VIDEO_OPTION_LOCAL</option>
+			<option value="1">COM_JETESTIMONIAL_FIELD_ENABLE_VIDEO_OPTION_YOUTUBE</option>
+		</field>
+
+	</fieldset>
+
+	<fieldset
+		name="display"
+		label="COM_JETESTIMONIAL_CONFIG_COMPONENT_DISPLAYSETTINGS_LABEL"
+		description="COM_JETESTIMONIAL_CONFIG_COMPONENT_DISPLAYSETTINGS_DESC"
+	>
+		<field
+			name="show_title"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWTITLE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWTITLE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_avatar"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWAVATAR_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWAVATAR_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_clientname"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWCLIENTNAME_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWCLIENTNAME_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field
+			name="show_company"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWCOMPANY_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWCOMPANY_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field
+			name="show_location"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWLOCATION_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWLOCATION_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_city"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWCITY_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWCITY_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_state"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWSTATE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWSTATE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_website"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWWEBSITE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWWEBSITE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_email"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWEMAIL_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWEMAIL_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_posted_date"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWRELEASE_DATE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWRELEASE_DATE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_release_date"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWRELEASEDATE_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWRELEASEDATE_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_shadowbox"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOWSHADOWBOX_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOWSHADOWBOX_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_audio"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOW_AUDIO_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOW_AUDIO_DESC"
+			default="0"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_video"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SHOW_VIDEO_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SHOW_VIDEO_DESC"
+			default="0"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="show_date_format_je"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_DATEFORMAT_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_DATEFORMAT_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">DATE_FORMAT_AMERICAN</option>
+			<option value="1">DATE_FORMAT_INDAIAN</option>
+		</field>
+
+	</fieldset>
+
+	<fieldset
+		name="email"
+		label="COM_JETESTIMONIAL_CONFIG_COMPONENT_EMAILSETTINGS_LABEL"
+		description="COM_JETESTIMONIAL_CONFIG_COMPONENT_EMAILSETTINGS_DESC"
+	>
+		<field
+			name="send_admin"
+			type="radio"
+			label="COM_JETESTIMONIAL_FIELD_SENDADMIN_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_SENDADMIN_DESC"
+			default="1"
+			class="btn-group"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field name="emailid"
+			default="admin@emailid.com"
+			type="text"
+			label="COM_JETESTIMONIAL_FIELD_EMAILID_LABEL"
+			description="COM_JETESTIMONIAL_FIELD_EMAILID_DESC"
+			class="inputbox"
+			size="30"
+		 />
+	</fieldset>
+
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+	>
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			class="inputbox"
+			validate="rules"
+			filter="rules"
+			component="com_jetestimonial"
+			section="component"
+		/>
+	</fieldset>
+</config>
+

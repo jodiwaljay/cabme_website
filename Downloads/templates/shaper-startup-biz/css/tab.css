@@ -1,0 +1,95 @@
+.sec1 {
+    border: 2px solid #e0e4e0;
+    height: 183px;
+}
+
+img.log1,.f{
+    float: left;
+    padding: 2px;
+
+}
+
+ {
+    float: left;
+}
+
+
+.img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.text1 {
+  font-size: 20px;
+}
+
+.text2 {
+  font-size: 24px;
+}
+
+.col-sm-2.seat.car > img  {
+	padding-top:40px;
+}
+
+
+   
+
+.col-sm-10.seat {
+    font-size: 12px;
+}
+
+.s {
+    color: #7c7c7c;
+}
+.no{
+	color:#409716;
+	 font-size: 18px;
+	  padding: 17px 0px;
+	   
+}
+
+
+
+
+
+
+.pre {
+    font-family: inherit;
+    font-size: 12px;
+}
+
+ul.tabs {
+    padding-left: 83px;
+
+
+}
+
+
+
+
+.sppb-btn.sppb-btn-default.sppb-btn-.register{
+    background: url(../images/gs/register-button.jpg) 3px 5px no-repeat;
+    padding-left: 35px;
+    padding-right: 15px;
+     
+} 
+
+
+.nav > li > a{
+	padding: 13px 55px;
+}
+
+
+.col-sm-4.car_type {
+    padding-left: 129px;
+}
+
+.allowed {
+    font-size: 16px;
+      margin: 140px -155px -29px;
+    padding: 1px;
+}
+
+.row.facilities {
+    padding: 136px 0px;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_RIDE_DETAILS_TITLE_LIST_VIEW_RIDEDETAILS" option="View">
+        <message>
+                        <![CDATA[COM_RIDE_DETAILS_TITLE_LIST_VIEW_RIDEDETAILS_DESC]]>
+        </message>
+	</layout>
+</metadata>

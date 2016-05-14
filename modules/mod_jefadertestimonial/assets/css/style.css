@@ -1,0 +1,115 @@
+div#je-module {
+	padding : 10px;
+}
+
+div#je-module div#je-address {
+	background: url(../../assets/images/bot.png) no-repeat top right;
+	padding : 20px 5px 5px 0px;
+	text-align : right;
+}
+
+div#je-modcon {
+	 border-top : solid 1px #8A8DA0;
+	 border-left : solid 1px #8A8DA0;
+	 border-right : solid 1px #8A8DA0;
+	 padding : 5px;
+}
+
+
+div#je-module div#je-modimg {
+	text-align : center;
+}
+
+div#je-module div#je-modimg img {
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+	background-color: #F7F7F7;
+}
+
+div#je-module div#je-description {
+	text-align : justify;
+	padding : 5px 0px 5px 0px;
+}
+
+div#je-readmore {
+	padding-bottom : 10px;
+}
+
+div#je-readmore a {
+	font-weight : bold;
+}
+
+
+/* -------------------------------------------- Second design ---------------------------------------------------------- */
+
+div#je-testimonials2 {
+	margin-top : 15px;
+}
+
+div#style2 div#je-title h2 {
+	font-size: 15px;
+	margin : 0;
+	line-height: 25px;
+	color  : #000000;
+}
+
+div#je-testimonials2  div#je-quoteright {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials2  div#je-quoteleft {
+	text-align: justify;
+	margin :0;
+}
+
+div#je-testimonials2 div#je-con div#je-quoteleft img{
+	margin : 0px 10px 5px 0px;
+	padding : 5px;
+	border: solid 1px #DBDBDB;
+}
+
+div#je-testimonials2 div#je-con div#je-quoteright img{
+	margin : 0px 0px 5px 10px;
+	padding : 5px;
+	border: solid 1px #FBE601;
+}
+
+div#je-testimonials2 div#je-audetails {
+	text-align: right;
+	margin :0;
+}
+
+table tr td#style2-inner1-module {
+	background : url("../../assets/images/style2/left-grey.png") no-repeat scroll left top transparent;
+	width:50px;
+}
+
+table tr td#style2-inner2-module {
+	background : url("../../assets/images/style2/right-grey.png") no-repeat scroll right bottom transparent;
+	width:50px;
+	margin:0;
+}
+
+div table tr td{
+	border:none;
+}
+
+div table{
+	border-collapse:separate;
+}
+
+/* -------------------------------------------------------------- Second Design End ------------------------------------------------------------------------------ */
+
+/*******************************Add Testimonial and All Testimonial****************************/
+
+#add_all{
+	margin-top:8px;
+}
+#adds #link_jafadar{
+	 text-decoration: none;
+	 margin:3px 0px;
+}
+#all_testimonial #link_jafadar{
+	 text-decoration: none;
+}

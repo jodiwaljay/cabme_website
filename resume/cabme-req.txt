@@ -1,0 +1,22 @@
+As per discussion over phone with your team below are listed tasks:
+
+Search a cab and join:
+    Once a person search cab using search form in home page he should be redirected to Post a cab listing page.
+    If a person login and clicks on join now then a pop-up should come and it should ask for "How many seats you are looking for?".
+    If a person enter number of seats and click on submit.
+    User will get SMS saying "Your cab will be confirm within 10 to 15min".
+    Driver will get a SMS which will say "Mr.User want to book Number(2or 3) seats in your cab please confirm by clicking below link".
+    Once driver clicks on click he will be redirected to website and confirmation pop-up come.
+    Again user will get SMS saying that "Your cab has been confirm Mr.Driver is your driver and his mobile number ".
+
+
+Book a cab and share:
+    Once a user login and fills booking a cab form .
+    After Filling form user try to submit then a pop-up should come .
+    Pop-up will ask "Do you want to share your cab?"
+    if yes - "It should redirect to post a cab window will details pre-filled" and rest of the details he should fill it .
+    Once user submit post a cab form then driver of cab should get SMS with user details and cab should be listed in post a cab listing page.
+    Rest a of procedure should me same as join a cab which has been listed above.
+    If No- "Driver of cab should get SMS with user details".
+
+If there is anything missing from the discussion please mention and reply.

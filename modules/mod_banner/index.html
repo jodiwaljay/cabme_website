@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {width: 100%;}
+		.carousel-caption {float: left; margin-top: 20px ; left: 0; right: 0; top: 15%;}
+		.yellow-text{color:#FBE601;}
+		.right-text {color: #fff; float: right; text-align: center; margin-top: 100px;}
+		.name-icon {background-image: url("http://localhost/projects/rekha/banner/images/Login-line.jpg"); background-repeat: no-repeat; padding-top: 20px;}
+		.name-icon:first-child {background-image: url("http://localhost/projects/rekha/banner/images/Login-line.jpg");}
+		.right-text h2 {color:#FBE601; font-weight: bold;}
+		.img-icon {padding-right: 20px;  padding-left: 15px;}
+		#user-name {background: url("images/register-icon1.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;}
+		#mobile {background: url("images/register-icon2.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;}
+		#email {background: url("images/register-icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;}
+		#password {background: url("images/register-icon4.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;}
+		.input-text,.form-control.input-text:focus{border: none; padding: 0 0 10px 30px; width: 100%; box-shadow: none;}
+		#car-type {background: url("images/icon4.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;}
+		#from {background: url("images/icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line-half.png") no-repeat scroll center bottom;}
+		#to {background: url("images/icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line-half.png") no-repeat scroll center bottom;}
+		#date {background: url("images/icon1.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line-half.png") no-repeat scroll center bottom;}
+		#time {background: url("images/icon2.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line-half.png") no-repeat scroll center bottom;}
+		#pickup {background: rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;}
+		#traveller {background: url("images/icon.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;}
+		#post-from{background: url("images/icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;}
+		#post-to{background: url("images/icon3.png") no-repeat scroll 0 0px, rgba(0, 0, 0, 0) url("images/Login-line.png") no-repeat scroll center bottom;}
+		.button-submit {background-color: #fbe601; border: medium none; color: #000; display: block; font-weight: bold; height: 50px; margin: 0 auto; width: 80%;}
+		.date-time {width: 50%; float: left;}
+		.background1 {background:rgba(54, 77, 93, 0.5);}
+		.background2 {background-color:rgba(53, 35, 21, 0.4);}
+		.background3 {background-color: rgba(1, 1, 1, 0.4);}
+		.social-media ul li {display: inline-block; margin: 0 8px 0 5px;}
+		.yellow-text-read{color:#FBE601; text-decoration: underline;}
+		.form-group {margin-bottom: 20px;}
+	</style>
+</head>
+<body>
+
+<div class="container-fluid">
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/home-banner.jpg" alt="Chania" width="460" height="345">
+         <div class="container  carousel-caption">
+         <div class="col-md-5 background1">
+          <h3>REGISTER <span class="yellow-text">NOW..!!</span></h3>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control input-text" id="user-name" name="user-name" value="" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control input-text" id="mobile" name="mobile" value="" placeholder="Mobile No">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control input-text" id="email" name="email" value="" placeholder="Email ID">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control input-text" id="password" name="password" value="" placeholder="Create Password">
+              </div>
+              <div class="form-group">
+                <button type="submit" class="button-submit">REGISTER NOW</button>
+              </div>
+              <div class="form-group">
+                <img src="images/or.png" alt="" />
+              </div>
+              <div class="form-group">
+                <p>sign up with social media</p>
+              </div>
+              <div class="form-group social-media">
+                <ul>
+                  <li>
+                    <a href="#"><img src="images/fb.png" alt="Facebook" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/google.png" alt="Google" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/twit.png" alt="Twitter" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/linkd.png" alt="Linkdin" /></a>
+                  </li>
+                </ul>
+              </div>
+
+            </form>
+         </div>
+         <div class="col-md-7">
+          <div class="right-text">
+          <h3>Get cars from all Segments at</h3>
+          <h2>BEST DISCOUNTS,<br>BEST PRICES</h2>
+          <p>The lorem ipsum text is typically a scrambled section of De finibus </p>
+        </div>
+         </div>
+      </div>
+    </div>
+    <div class="item ">
+        <img src="images/banner2.jpg" alt="Chania" width="460" height="345">
+          <div class="container  carousel-caption">
+            <div class="col-md-5 background2">
+              <h3>POST A <span class="yellow-text">CAB..!!</span></h3>
+            <form>
+              <!--<div class="form-group">
+                <input type="radio" name="ac" value="ac" checked> AC &nbsp;&nbsp;
+                <input type="radio" name="non-ac" value="non-ac"> Non AC
+              </div>-->
+              <div class="form-group">
+                 <select class="form-control input-text" id="car-type" name="car-type">
+                  <option value=""> Car Type </option>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control input-text" id="post-from" name="post-from" value="" placeholder="From">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control input-text" id="post-to" name="post-to" value="" placeholder="To">
+              </div>
+              <div class="form-group date-time">
+                <input type="date" class="form-control input-text" id="date" name="date" value="" placeholder="Date">
+              </div>
+              <div class="form-group date-time">
+                <input type="date" class="form-control input-text" id="time" name="time" value="" placeholder="Time">
+              </div>
+              <div class="form-group">
+                <select class="form-control input-text" id="pickup" name="pickup">
+                  <option value=""> Pickup points </option>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select class="form-control input-text" id="traveller" name="traveller">
+                  <option value=""> Travellers </option>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="button-submit">POST A CAB</button>
+              </div>
+            </form>
+         </div>
+         <div class="col-md-7">
+          <div class="right-text">
+            <h3>Get cars from all Segments at</h3>
+            <h2>HOW TO ATTACH WITH YOUR CAR WITH <br><span class="text-bold">CABME IN INDIA</span></h2>
+            <p>The lorem ipsum text is typically a scrambled section of De finibus </p>
+                <button type="submit"><img src="images/register-button.jpg" alt=""/></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="item">
+        <img src="images/banner3.jpg" alt="Chania" width="460" height="345">
+          <div class="container  carousel-caption">
+            <div class="col-md-5 background3">
+              <h3>BOOK A <span class="yellow-text">CAB..!!</span></h3>
+            <form>
+              <div class="form-group date-time">
+                <input type="text" class="form-control input-text" id="date" name="date" value="" placeholder="Date of Travel">
+              </div>
+              <div class="form-group date-time">
+                <input type="text" class="form-control input-text" id="time" name="time" value="" placeholder="Time">
+              </div>
+              <div class="form-group date-time">
+                <input type="text" class="form-control input-text" id="from" name="from" value="" placeholder="From">
+              </div>
+              <div class="form-group date-time">
+                <input type="text" class="form-control input-text" id="to" name="to" value="" placeholder="To">
+              </div>
+              <div class="form-group">
+                 <select class="form-control input-text" id="car-type" name="car-type">
+                  <option value=""> Car Type </option>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="radio" name="oneway" value="oneway" checked> Oneway &nbsp;&nbsp;
+                <input type="radio" name="twoway" value="twoway"> Two way &nbsp;&nbsp;
+                <input type="radio" name="threeway" value="threeway"> Multiple Destinators
+              </div>
+              <div class="form-group">
+                <h4 class="yellow-text-read">Return Details</h4>
+              </div>
+              <div class="form-group date-time">
+                <input type="text" class="form-control input-text" id="date" name="date" value="" placeholder="Date of Travel">
+              </div>
+              <div class="form-group date-time">
+                <input type="text" class="form-control input-text" id="time" name="time" value="" placeholder="Time">
+              </div>
+               <div class="form-group date-time">
+                <input type="text" class="form-control input-text" id="from" name="from" value="" placeholder="From">
+              </div>
+              <div class="form-group date-time">
+                <input type="text" class="form-control input-text" id="to" name="to" value="" placeholder="To">
+              </div>
+              <div class="form-group">
+                <input type="checkbox" name="vehicle" value="Bike"> I Want to share my cab<br>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="button-submit">BOOK NOW</button>
+              </div>
+            </form>
+         </div>
+         <div class="col-md-7">
+          <div class="right-text">
+            <h3>Get cars from all Segments at</h3>
+            <h2>HOW TO ATTACH WITH YOUR CAR WITH <br><span class="text-bold">CABME IN INDIA</span></h2>
+            <p>The lorem ipsum text is typically a scrambled section of De finibus </p>
+                <button type="submit"><img class="register-button" src="images/register-button.jpg" alt=""/><img class="offeride-button" src="images/offeraride.png" alt=""/></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>

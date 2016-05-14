@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0">
+	<name>Cab Booking</name>
+	<author>Adodis! Demo</author>
+	<creationDate>March 2016</creationDate>
+	<copyright>Copyright (C) 2016 - 2016 Adodis. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@adodis.com</authorEmail>
+	<authorUrl>www.adodis.com</authorUrl>
+	<version>3.0.0</version>
+	<description>This is a cab booking module</description>
+	<files>
+		<filename module="mod_cabbooking">mod_cabbooking.php</filename>
+		<filename>index.html</filename>
+		
+	</files>
+	
+	
+		
+</extension>
